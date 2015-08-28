@@ -1,5 +1,6 @@
 import django
-from django.contrib.contenttypes.generic import BaseGenericInlineFormSet, GenericInlineModelAdmin
+from django.contrib.contenttypes.admin import GenericInlineModelAdmin
+from django.contrib.contenttypes.forms import BaseGenericInlineFormSet
 from fluent_contents import extensions, appsettings
 from fluent_contents.forms import ContentItemForm
 from fluent_contents.models import Placeholder, get_parent_language_code

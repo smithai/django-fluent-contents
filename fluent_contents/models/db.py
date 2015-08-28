@@ -1,6 +1,6 @@
 from copy import deepcopy
 from future.utils import with_metaclass, python_2_unicode_compatible, PY3
-from django.contrib.contenttypes.generic import GenericForeignKey
+from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.dispatch import receiver

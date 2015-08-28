@@ -3,7 +3,7 @@ import django
 from django.conf.urls import patterns, url
 from django.contrib.admin import ModelAdmin
 from django.contrib.admin.helpers import InlineAdminFormSet
-from django.contrib.contenttypes.generic import GenericInlineModelAdmin
+from django.contrib.contenttypes.admin import GenericInlineModelAdmin
 from django.core.exceptions import ImproperlyConfigured
 from django.db.models import signals
 from django.dispatch import receiver
